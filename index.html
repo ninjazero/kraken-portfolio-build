@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Anthony Horn | UX Designer, Developer, and Project Lead</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Anthony is a multi talented web specialist, Drupalist, and human being.">
+
+		<!-- Icons -->
+		<link rel="shortcut icon" type="image/ico" href="favicon.ico">
+
+		<!-- Stylesheet -->
+		<link rel="stylesheet" href="dist/main.css" type="text/css">
+		<style type="text/css">
+			@font-face {
+			    font-family: workSansBlack;
+			    src: url(fonts/WorkSans-Black.ttf);
+			}
+
+			@font-face {
+			    font-family: workSansBold;
+			    src: url(fonts/WorkSans-Bold.ttf);
+			}
+
+			@media (max-width: 40em) {	
+				.selfie {
+					display: block;
+					width: 55%;
+					margin: auto;
+				}
+
+				.card .grid-third {
+					padding-bottom: 0;
+				}
+
+				.card .grid-two-thirds {
+					padding-top: ;
+				}
+			}
+			
+
+			.primary-heading {
+				font-family: workSansBlack;
+				color: #444;
+				font-size: 2rem;
+			}
+
+			@media (min-width: 40em) {	
+				.primary-heading {
+					font-family: workSansBlack;
+					color: #444;
+					font-size: 3rem;
+				}
+			}
+
+			h2 {
+				font-family: workSansBold;
+				color: var(--color-primary-dark);
+				font-size: 2rem;
+			}
+
+			.primary-nav {
+				border-radius: 2rem;
+				padding: .5rem 1rem;
+				background-color: var(--color-white);
+				box-shadow: 1px 1px 4px #999;
+			}
+		
+			.container-small {
+				max-width: 58rem;
+			}
+
+			html {
+				scroll-behavior: smooth;
+			}
+
+			@media screen and (prefers-reduced-motion: reduce) {
+				html {
+					scroll-behavior: auto;
+				}
+			}
+
+			.card {
+				background-color: #efefef;
+				border-radius: 1rem;
+				box-shadow: 1px 1px 5px #999;
+				text-align: center;
+			}
+
+			@media (min-width: 40em) {	
+				.card {
+					text-align: initial;
+				}
+			}
+
+			.padding {
+				padding: 1.5625rem;
+			}
+
+			.padding-x {
+				padding-left: 1.5625rem;
+				padding-right: 1.5625rem;
+			}
+
+			/* fix issue with Kraken */
+			.list-inline > li::before, .list-unstyled > li::before {
+				content: "";
+			}
+
+			.scrollToTopBtn {
+					position: fixed;
+					bottom: 50px;
+					right: 50px;
+					z-index: 100;
+					display: none;
+					padding: 8px 4px;
+					cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<a class="visually-hidden focusable" href="#main">Skip Navigation</a>
+
+		<main class="container container-small" id="main" tabindex="-1" markdown="1">
+			<div class="row margin-top margin-bottom card">
+				<div class="grid-third padding">
+					<img class="selfie" src="images/selfie.png" alt="Photo of Anthony">
+				</div>
+				<div class="grid-two-thirds padding">
+					<h1 class="primary-heading no-margin-bottom">Hi, I'm Anthony Horn</h1>
+			        <div class="margin-bottom"><strong>UX Designer // Dev // Project Handler</strong></div>
+					<div class="margin-bottom">
+						<a href="https://www.linkedin.com/in/anthorn305/" class="btn">Resume on LinkedIn</a>
+						<a href="mailto:&#097;&#110;&#116;&#104;&#111;&#110;&#121;&#104;&#111;&#114;&#110;&#100;&#101;&#115;&#105;&#103;&#110;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" class="btn">Email Me</a>
+					</div>
+					<nav class="primary-nav">
+						<ul class="list-inline no-margin-bottom">
+							<li><strong>Jump to:</strong></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#community">Community</a></li>
+							<li><a href="#samples">Samples</a></li>
+							<li><a href="#summary">Summary</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<h2 id="about">A Little Bit About My World</h2>
+			<div class="row margin-bottom">
+				<div class="grid-two-thirds">
+					<p>My name is Anthony Horn and I am a web specialist. What is a web specialist? Good question. I have been working with clients for over 10 years now to build cutting edge, engaging, and user friendly websites. This means that I have had the pleasure of serving my clients as hosting provider, php developer, front end specialist, UX Designer, UX researcher, project manager, documentation writer, process builder, and web architect.</p>
+					<p>When I am not making the internet I'm running AV, playing drums, and teaching Sunday school at Epic Life Church or co-leading a group of Webelos Scouts. Young people are the future of our world and they need all support, mentorship, and positive experiences they can get.</p>
+				</div>
+				<div class="grid-third">
+					<img src="images/world.png" alt="A happy little planet">
+				</div>
+			</div>
+			<hr>
+			<h2 id="skills">Check Out My Skills</h2>
+			<div class="row row-gap-large margin-bottom">
+				<div class="grid-third">
+					<h3>Design, UX Design, & Prototyping</h3>
+					<p>These days most of my design work is building design systems, so I spend a lot less time in programs like Photoshop and a lot more in programs like Figma.</p>
+					<ul>
+						<li>Adobe XD</li>
+						<li>Figma</li>
+						<li>Adobe Photoshop</li>
+						<li>Adobe Illustrator</li>
+					</ul>
+				</div>
+				<div class="grid-third">
+					<h3>UX Research and Strategy</h3>
+					<p>I created and engage clients in an interative UX improvement process based on Human Centered Design.</p>
+					<ol>
+						<li>Creating a Design Challenge</li>
+						<li>Research & Analysis</li>
+						<li>Ideation</li>
+						<li>Prototyping</li>
+						<li>User Testing</li>
+						<li>Project Planning</li>
+					</ol>
+				</div>
+				<div class="grid-third">
+					<h3>Client Engagement & Project Management</h3>
+					<p>I manage a client engagement process as well as run project discoveries and projects both as a lone developer and as a team lead. I find the following instrumental:</p>
+					<ul>
+						<li>Collaborative Wireframing</li>
+						<li>RACI Matrix</li>
+						<li>Agile/Scrum</li>
+						<li>JIRA</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row row-gap-large">
+				<div class="grid-third">
+					<h3>Front End Development and Pattern Libraries</h3>
+					<p>I will always have a passion for front end development and we are certainly living in the golden age of CSS and JS.</p>
+					<ul>
+						<li>CSS/SASS using BEM</li>
+						<li>Twig/Mustache/Handlebars</li>
+						<li>Node/NPM</li>
+						<li>Gulp</li>
+						<li>Pattern Lab</li>
+					</ul>
+				</div>
+				<div class="grid-third">
+					<h3>Drupal Theming and Development</h3>
+					<p>I also have experience with Wordpress, but Drupal has been my main thing for over 8 years. Here is a look at my stack:</p>
+					<ul>
+						<li>Docker or Lando</li>
+						<li>Composer</li>
+						<li>Drush and Console</li>
+						<li>X-Debug</li>
+						<li>Git</li>
+					</ul>
+				</div>
+				<div class="grid-third">
+					<h3>Web Architecture</h3>
+					<p>I am really good at mapping client requirements into content types, taxonomies, views, and data formats that ensure that data is related in a logical and actionable fashion.</p>
+					<ul>
+						<li>Technical story writing</li>
+						<li>Application flow charts</li>
+						<li>Migration field mapping</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<h2 id="community">In the Community</h2>
+			<p>I really do believe in giving back to the web community. "Come for the code, stay for the community" is a real thing, and I try to pass on any new skills or techniques that I find valuable and believe that others could benefit from.</p>
+			<div class="row row-gap-large margin-bottom">
+				<div class="grid-half">
+					<a href="https://mediaspace.ucsd.edu/media/Building+a+User+Experience+Improvement+Process+for+Higher+Education/1_2gffxu1e/259921302"><img src="images/uxtalk.png" alt="UX Improvement Talk at UC Tech Video"></a>
+					<h3>Building a UX Process for Higher Ed - 2022</h3>
+					<p>Presented my process, example project, and tips for implementing a UX Improvement Process at the attendees University. This is the result of several years of work. <a href="https://www.youtube.com/watch?v=EmNd6D2DSic&list=PLY-mQxqgVZ1wgNdLAgPIyHWBfkMR1wnP5&index=9">Presented at BadCamp 2022</a> as well.</p>
+				</div>
+				<div class="grid-half">
+					<a href="https://mediaspace.ucsd.edu/media/Automated+End-to-End+Website+Testing+with+Cypress/1_awj5vu5o/259921302"><img src="images/cypresstalk.png" alt="Cypress Talk at UC Tech Video"></a>
+					<h3>Automated End to End Testing with Cypress - 2022</h3>
+					<p>Co-presented with Mark Miller(UC Davis) and Sasha Miller(UCSF) on implementing Cypress as an end to end automated testing tool.</p>
+				</div>
+			</div>
+			<div class="row row-gap-large margin-bottom">
+				<div class="grid-half">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/DdpMIbxz2yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h3>SVG Magic - 2019</h3>
+					<p>Presented on SVGs, what they are, how to use them, best practices, and examples. Also covered accessiblity and security concerns.</p>
+				</div>
+				<div class="grid-half">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/EFNdohOx6q0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h3>You Gonna Build a Process for that Process - 2019</h3>
+					<p>A co-presentation with Shawn DeArmond, on our processes as they stood in 2019, our plans for the future, and our process for creating processes.</p>
+				</div>
+			</div>
+			<hr>
+			<h2 id="samples">Work Samples</h2>
+			<div class="row row-gap-large margin-bottom">
+				<div class="grid-third">
+					<a href="https://ucdavis.edu"><img src="images/ucdwww.jpeg" alt="Screenshot of UCDavis.edu"></a>
+				</div>
+				<div class="grid-two-thirds">
+					<h3 class="no-padding-top"><a href="https://ucdavis.edu">UCDavis.edu</a></h3>
+					<p>This is the flagship site of UC Davis. We work with our office of Strategic Communications once every couple of years to revamp the design system and re-theme the website. My primary contribution to this effort was essentially providing design ops and direction to create a digital design system that could then be utilized for a rebrand of the campus CMS that would then be the basis for the main campus site.</p>
+				    <ul>
+						<li><a href="https://xd.adobe.com/view/45eec55b-8d01-4f34-b3f6-66a4a0b0ef07-10bd/grid/">Digital Style Guide in XD</a></li>
+						<li><a href="https://winners.webbyawards.com/2022/websites-and-mobile-sites/general-websites-and-mobile-sites/schooluniversity/212571/university-of-california-davis-homesite">2022 Webby Award</a></li>
+						<li><a href="https://drive.google.com/file/d/1v7sKRODuzv_n7wjNK8hwc4cM-sGzdsdk/view?usp=share_link">Presentation from BadCamp Higher Ed Summit</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row row-gap-large margin-bottom">
+				<div class="grid-third">
+					<a href="https://www.mondaviarts.org/"><img src="images/mondavi.png" alt="Screenshot of Mondavi Center Website"></a>
+				</div>
+				<div class="grid-two-thirds">
+					<h3 class="no-padding-top"><a href="https://www.mondaviarts.org/">MondaviArts.org</a></h3>
+					<p>I planned and managed this project back in 2016. It was a challenging project with a lot of requirements around design, events, seasons, and ticket purchasing. In addition to the planning, I also did the theming and development. I have been making ad hoc improvements to this site over the years as well as supporting the staff during the release of seasonal packages of events. I was given a interal departmental award for my efforts on the is project.</p>
+				</div>
+			</div>
+			<div class="row row-gap-large margin-bottom">
+				<div class="grid-third">
+					<img src="images/aggieservice.png" alt="Screenshot of Aggie Service Presentation">
+				</div>
+				<div class="grid-two-thirds">
+					<h3 class="no-padding-top">Aggie Service UX Improvement Process</h3>
+					<p>The presentation below represents a year of meetings, excercises, interviews, brainstorming, insights, surveys, analysis, testing, prototyping, blood, sweat, and tears. This is a process I creaated and guided a client through along with the development team who is currently providing them service.</p>
+					<a href="https://drive.google.com/file/d/1-zz6ycC7dkaKjXTh75zsJiHOwTZjfGgx/view?usp=share_link" class="btn margin-bottom">AS UX Engagement Presentation</a>
+				</div>
+			</div>
+			<div class="row row-gap-large margin-bottom">
+				<div class="grid-third">
+					<a href="https://vimeo.com/channels/1248284"><img src="images/vimeo.png" alt="Screenshot of Vimeo Channel"></a>
+				</div>
+				<div class="grid-two-thirds">
+					<h3 class="no-padding-top"><a href="https://vimeo.com/channels/1248284">SiteFarm Subtheming Tutorials</a></h3>
+					<p>These are in desperate need of being recreated at this point, but make a good example of video tutorials that I have created in the past as documentation for our SiteFarm community and from time to time for client projects.</p>
+					<a href="https://vimeo.com/channels/1248284" class="btn margin-bottom">SiteFarm Subtheming Tutorials</a>
+				</div>
+			</div>
+			<div class="row row-gap-large margin-bottom">
+				<div class="grid-third">
+					<a href="http://dev.webstyleguide.ucdavis.edu/dev/?p=all"><img src="images/patternlab.png" alt="Screenshot of SiteFarm PatternLab"></a>
+				</div>
+				<div class="grid-two-thirds">
+					<h3 class="no-padding-top"><a href="http://dev.webstyleguide.ucdavis.edu/dev/?p=all">SiteFarm Pattern Lab</a></h3>
+					<p>This is our pattern library that we try to keep Drupal agnostic so that any web developer can implement it into the technology of their choice. I do design work and development to maintain this codebase. This is one of the few projects where my work is kept in a public repository.</p>
+					<ul>
+						<li><a href="http://dev.webstyleguide.ucdavis.edu/dev/?p=all">Visit the SiteFarm Pattern Lab</a></li>
+						<li><a href="https://bitbucket.org/ietwebdev/sitefarm-pattern-lab-one/src/master/">View the code</a></li>
+					</ul>
+				</div>
+			</div>
+			<h2 id="summary">In Summary</h2>
+			<div class="row row-gap-large margin-bottom">
+				<div class="grid-two-thirds">
+					<p>I want to personally thank you for your time and making it all the way to the bottom of my website. This has been a quick snapshot of who I am, what I do, and what I'm about. I don't include lot of code samples simply because most of my work is behind a private repo, and I don't find time to do too much module development that might end up as contrib, but I do patch other peoples stuff and you should be able to see my <a href="https://www.drupal.org/u/anthorn305">contributions on Drupal.org</a>.</p>
+					<p>I love to talk shop so if you are interested in chatting about a project, position, or you just want to shoot the breeze about the meaning of life click the link below to shoot me an email.</p>
+					<a href="mailto:&#097;&#110;&#116;&#104;&#111;&#110;&#121;&#104;&#111;&#114;&#110;&#100;&#101;&#115;&#105;&#103;&#110;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" class="btn">Email Me</a>	
+				</div>
+				<div class="grid-third">
+					<img src="images/sun.png" alt="A happy little sun">
+				</div>
+			</div>
+			
+		</main>
+
+		<footer class="container container-small padding-bottom">
+			<hr>
+			<nav>
+				<ul class="list-inline">
+					<li><a href="https://www.linkedin.com/in/anthorn305/">LinkedIn</a></li>
+					<li><a href="https://codepen.io/anthorn305">CodePen</a></li>
+					<li><a href="https://twitter.com/anthorn305">Twitter</a></li>
+				</ul>
+			</nav>
+			<p class="text-small text-muted">Made by Anthony Horn. Thrown together using <a href="https://cferdinandi.github.io/kraken/index.html">Kraken</a> mobile first boilerplate.</p>
+		</footer>
+		<button class="scrollToTopBtn">TOP</button>	
+		<script>
+			// Back to top
+			document.addEventListener("scroll", handleScroll);
+			// get a reference to our predefined button
+			var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
+
+			function handleScroll() {
+				var scrollableHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+				var GOLDEN_RATIO = 0.5;
+
+				if ((document.documentElement.scrollTop / scrollableHeight ) > GOLDEN_RATIO) {
+					//show button
+					scrollToTopBtn.style.display = "block";
+				} else {
+					//hide button
+					scrollToTopBtn.style.display = "none";
+				}
+			}
+
+			scrollToTopBtn.addEventListener("click", scrollToTop);
+
+			function scrollToTop() {
+				window.scrollTo({
+					top: 0,
+					behavior: "smooth"
+				});
+			}
+		</script>
+	</body>
+</html>	
